@@ -413,7 +413,7 @@ static void print_status_narrow(void) {
 
     switch (get_highest_layer(layer_state)) {
         case _QWERTY:
-            oled_write("Base", false);
+            oled_write("Qwert", false);
             break;
         case _RAISE:
             oled_write("Raise", false);
@@ -422,7 +422,7 @@ static void print_status_narrow(void) {
             oled_write("Lower", false);
             break;
         case _ADJUST:
-            oled_write("Adj", false);
+            oled_write("Adjus", false);
             break;
         default:
             oled_write("Undef", false);
@@ -430,7 +430,7 @@ static void print_status_narrow(void) {
 
     // caps lock
     oled_set_cursor(0,8);
-    oled_write("CPSLK", led_usb_state.caps_lock);
+    oled_write("  ", led_usb_state.caps_lock);
 
     // KEYBOARD PET RENDER START
 
