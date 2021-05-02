@@ -150,3 +150,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Bootmagic Lite key configuration */
 //#define BOOTMAGIC_LITE_ROW 0
 //#define BOOTMAGIC_LITE_COLUMN 0
+
+#define VIAL_KEYBOARD_UID {0x4A, 0xBF, 0xA4, 0xED, 0x73, 0x69, 0xB3, 0xFD}
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 2 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 13 }
