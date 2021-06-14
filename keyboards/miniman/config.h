@@ -41,3 +41,6 @@
 
 #define QMK_ESC_OUTPUT F6 // usually COL
 #define QMK_ESC_INPUT F1 // usually ROW
+#define VIAL_KEYBOARD_UID {0x69, 0x06, 0xBC, 0x51, 0xE6, 0x98, 0x54, 0x46}
+// #define VIAL_UNLOCK_COMBO_ROWS { 0, 0 }
+// #define VIAL_UNLOCK_COMBO_COLS { 1, 10 }
