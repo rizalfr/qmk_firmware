@@ -16,7 +16,7 @@ DFU_SUFFIX_ARGS = -v 6b62 -p 0000
 #   comment out to disable the options.
 #
 BOOTMAGIC_ENABLE = lite	# Device can be switched into bootloader mode without pressing the reset button on the PCB
-MOUSEKEY_ENABLE = no    # Mouse keys(+4700)
+MOUSEKEY_ENABLE = yes    # Mouse keys(+4700)
 EXTRAKEY_ENABLE = yes   # Audio control and System control(+450)
 CONSOLE_ENABLE = no    # Console for debug
 COMMAND_ENABLE = yes    # Commands for debug and configuration
