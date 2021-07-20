@@ -66,3 +66,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
 #endif
+
+#define VIAL_KEYBOARD_UID {0x10, 0x14, 0x31, 0x8A, 0x75, 0x49, 0x23, 0xA4}
