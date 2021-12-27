@@ -7,8 +7,8 @@
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x6060
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    qmkbuilder
-#define PRODUCT         keyboard
+#define MANUFACTURER    our workshop
+#define PRODUCT         numpad
 #define DESCRIPTION     Keyboard
 
 /* key matrix size */
@@ -59,3 +59,4 @@
 #endif
 
 #endif
+#define VIAL_KEYBOARD_UID {0x00, 0xEA, 0x0A, 0x56, 0xF2, 0x9A, 0xE8, 0x66}

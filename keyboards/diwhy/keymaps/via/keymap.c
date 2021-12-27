@@ -2,9 +2,22 @@
 #include "print.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+  /*
+   * ,-------------------.
+   * | NL | /  | *  | -  |
+   * |----|----|----|----|
+   * | 7  | 8  | 9  |    |
+   * |----|----|----| +  |
+   * | 4  | 5  | 6  |    |
+   * |----|----|----|----|
+   * | 1  | 2  | 3  |    |
+   * |----|----|----| En |
+   * |    0    | .  |    |
+   * `-------------------'
+   */
 
 	[0] = LAYOUT_all(
-		KC_CAPS, RESET, KC_ASTR, KC_MINS,
+		KC_NLCK, KC_PSLS, KC_ASTR, KC_MINS,
 		KC_7, KC_8, KC_9,
 		KC_4, KC_5, KC_6, KC_PLUS,
 		KC_1, KC_2, KC_3,
@@ -30,8 +43,8 @@ bool led_update_kb(led_t led_state) {
         // it low/0 turns it on, and high/1 turns the LED off.
         // This behavior depends on whether the LED is between the pin
         // and VCC or the pin and GND.
-        // writePin(B0, !led_state.num_lock);
-        writePin(B5, !led_state.caps_lock);
+        writePin(B5, !led_state.num_lock);
+        // writePin(B5, !led_state.caps_lock);
         // writePin(B2, !led_state.scroll_lock);
         // writePin(B3, !led_state.compose);
         // writePin(B4, !led_state.kana);
