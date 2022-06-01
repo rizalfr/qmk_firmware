@@ -49,3 +49,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Workaround for https://github.com/qmk/qmk_firmware/issues/11389 */
 #define IGNORE_ATOMIC_BLOCK
+#define RGB_DI_PIN B4
+#define RGBLED_NUM 9
+#define RGBLIGHT_ANIMATIONS

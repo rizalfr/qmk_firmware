@@ -2,7 +2,7 @@
     "name": "Sesame",
     "vendorId": "0xA68C",
     "productId": "0xE2BD",
-    "lighting": "none",
+    "lighting": "qmk_rgblight",
     "matrix": {
       "rows": 5,
       "cols": 15
