@@ -218,3 +218,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define BOOTMAGIC_LITE_COLUMN 0
 
 #define VIAL_KEYBOARD_UID {0x28, 0x6C, 0x90, 0x36, 0xF1, 0x83, 0xE7, 0x93}
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 3
