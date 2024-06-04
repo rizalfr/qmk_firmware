@@ -26,7 +26,7 @@
         "driver": "vendor"
     },
     "rgblight": {
-        "led_count": 1,
+        "led_count": 3,
         "animations": {
             "alternating": true,
             "breathing": true,
