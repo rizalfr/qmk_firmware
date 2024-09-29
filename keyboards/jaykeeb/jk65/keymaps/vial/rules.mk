@@ -1,0 +1,2 @@
+VIAL_ENABLED = yes
+VIAL_INSECURE = yes
