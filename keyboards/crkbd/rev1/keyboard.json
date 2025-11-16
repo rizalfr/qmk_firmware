@@ -25,6 +25,9 @@
             }
         }
     },
+    "mouse_key": {
+        "enabled": true
+    },
     "rgblight": {
         "led_count": 54,
         "split_count": [27, 27]
