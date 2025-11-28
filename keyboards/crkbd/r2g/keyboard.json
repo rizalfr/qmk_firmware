@@ -6,7 +6,8 @@
     },
     "processor": "atmega32u4",
     "features": {
-        "rgb_matrix": true
+        "rgb_matrix": false,
+        "rgblight": false
     },
     "build": {
         "lto": true
