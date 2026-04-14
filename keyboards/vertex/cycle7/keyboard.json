@@ -39,7 +39,7 @@
     },
     "diode_direction": "ROW2COL",
     "processor": "STM32F103",
-    "bootloader": "uf2boot",
+    "bootloader": "stm32duino",
     "community_layouts": [
         "tkl_nofrow_ansi",
         "tkl_nofrow_iso"
