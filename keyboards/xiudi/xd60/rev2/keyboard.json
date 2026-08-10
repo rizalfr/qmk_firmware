@@ -30,7 +30,7 @@
     },
     "rgblight": {
         "hue_steps": 10,
-        "led_count": 6,
+        "led_count": 12,
         "animations": {
             "breathing": true,
             "rainbow_mood": true,
